@@ -9,18 +9,18 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 @RestControllerAdvice
 public class Advice {
     
-    // @ExceptionHandler(MethodArgumentNotValidException.class)
-    //  public ResponseEntity<String> handleValidationException(MethodArgumentNotValidException ex) {
-    //     return ResponseEntity.badRequest().body("Dados inválidos, por favor verifique sua requisição.");
-    // }
+    @ExceptionHandler(MethodArgumentNotValidException.class)
+     public ResponseEntity<String> handleValidationException(MethodArgumentNotValidException ex) {
+        return ResponseEntity.badRequest().body("Dados inválidos, por favor verifique sua requisição.");
+    }
 
-    // @ExceptionHandler(HttpMessageNotReadableException.class)
-    // public ResponseEntity<String> handleInvalidFormatException(HttpMessageNotReadableException ex) {
-    //     return ResponseEntity.badRequest().body("Formato de entrada inválido.");
-    // }
+    @ExceptionHandler(HttpMessageNotReadableException.class)
+    public ResponseEntity<String> handleInvalidFormatException(HttpMessageNotReadableException ex) {
+        return ResponseEntity.badRequest().body("Formato de entrada inválido.");
+    }
 
-    // @ExceptionHandler(IllegalArgumentException.class)
-    // public ResponseEntity<String> handleIllegalArgumentException(IllegalArgumentException ex) {
-    //     return ResponseEntity.badRequest().body("Erro na requisição. Verifique os parâmetros enviados.");
-    // }
+    @ExceptionHandler(IllegalArgumentException.class)
+    public ResponseEntity<String> handleIllegalArgumentException(IllegalArgumentException ex) {
+        return ResponseEntity.badRequest().body("Erro na requisição. Verifique os parâmetros enviados.");
+    }
 }
