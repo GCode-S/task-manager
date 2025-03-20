@@ -24,11 +24,13 @@ Tailwind CSS para estilização
 
 📌 Como rodar o projeto?
 1️⃣ Clone o repositório
-```git clone https://github.com/GCode-S/task-manager.git
+```git clone https://github.com/GCode-S/task-manager.git```
+
 2️⃣ Configurar o Backend
+
 1️⃣ Acesse a pasta do backend:
 
-```sh
+
 Copiar
 Editar
 cd application/backend
