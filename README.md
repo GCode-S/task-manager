@@ -1,15 +1,15 @@
 # task-manager
 
-##🚀 Um sistema de gerenciamento de tarefas desenvolvido com Spring Boot (Backend) e Next.js (Frontend).
+## 🚀 Um sistema de gerenciamento de tarefas desenvolvido com Spring Boot (Backend) e Next.js (Frontend).
 
-###📌 Funcionalidades
+### 📌 Funcionalidades
 - ✅ **Cadastro, edição e remoção de tarefas**
 - ✅ **Filtro por status e ordenação**
 - ✅ **Paginação na listagem de tarefas**
 - ✅ **Marcar tarefas como concluídas**
 - ✅ **Integração entre Spring Boot + PostgreSQL no backend e Next.js + Axios + SWR + Context API + Tailwind CSS no frontend**
 
-###🛠 Tecnologias Utilizadas
+### 🛠 Tecnologias Utilizadas
 
 - 🔹 Backend (API REST)
 - 🔹Java + Spring Boot
@@ -23,7 +23,7 @@
 - 🔹Tailwind CSS para estilização
 
 
-##📌 Como rodar o projeto?
+## 📌 Como rodar o projeto?
 
 1️⃣ Clone o repositório <br/>
 ```bash
