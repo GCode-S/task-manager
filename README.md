@@ -32,9 +32,10 @@ git clone https://github.com/GCode-S/task-manager.git
 
 2️⃣ Configurar o Backend
 ```md
-  -1️⃣ Acesse a pasta do backend:
-  -2️⃣ Configure o application.properties com suas credenciais do PostgreSQL
-  -3️⃣ Rode o backend com:
+  -1️⃣ Crie um banco de dados chamado  -> apptaskmanager
+  -2️⃣ Acesse a pasta do backend:
+  -3️⃣ Configure o application.properties com suas credenciais do PostgreSQL
+  -4️⃣ Rode o backend com:
 ```
 
 
