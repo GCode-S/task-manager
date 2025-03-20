@@ -1,5 +1,5 @@
 # task-manager
-Task Manager 📌
+
 🚀 Um sistema de gerenciamento de tarefas desenvolvido com Spring Boot (Backend) e Next.js (Frontend).
 
 📌 Funcionalidades
@@ -20,16 +20,15 @@ Next.js
 React + Context API
 Axios + SWR para requisições
 Tailwind CSS para estilização
+
+
 📌 Como rodar o projeto?
 1️⃣ Clone o repositório
-sh
-Copiar
-Editar
-git clone https://github.com/GCode-S/task-manager.git
+```git clone https://github.com/GCode-S/task-manager.git
 2️⃣ Configurar o Backend
 1️⃣ Acesse a pasta do backend:
 
-sh
+```sh
 Copiar
 Editar
 cd application/backend
